@@ -1,0 +1,75 @@
+{\rtf1\ansi\ansicpg1251\cocoartf2821
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Monaco;}
+{\colortbl;\red255\green255\blue255;\red68\green133\blue214;\red216\green235\blue255;\red39\green102\blue184;
+\red189\green217\blue249;\red252\green252\blue252;\red38\green38\blue38;\red1\green30\blue103;\red10\green86\blue216;
+\red0\green0\blue0;\red245\green245\blue245;\red192\green0\blue4;\red107\green0\blue109;\red15\green112\blue1;
+}
+{\*\expandedcolortbl;;\cssrgb\c32941\c60000\c87059;\cssrgb\c87451\c93725\c100000;\cssrgb\c19216\c48627\c77255;
+\cssrgb\c78431\c88235\c98039;\cssrgb\c99216\c99216\c99216;\cssrgb\c20000\c20000\c20000;\cssrgb\c0\c17647\c47843;\cssrgb\c0\c43529\c87843;
+\cssrgb\c0\c0\c0;\cssrgb\c96863\c96863\c96863;\cssrgb\c80784\c0\c0;\cssrgb\c50196\c0\c50196;\cssrgb\c0\c50196\c0;
+}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalt \clcbpat3 \clwWidth488\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl0 \clpadr0 \gaph\cellx4320
+\clvertalt \clshdrawnil \clwWidth11533\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadl0 \clpadr0 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\qc\partightenfactor0
+
+\f0\fs24 \cf2 \expnd0\expndtw0\kerning0
+\
+\pard\intbl\itap1\pardeftab720\qc\partightenfactor0
+\cf4 \cb5 2\
+\pard\intbl\itap1\pardeftab720\qc\partightenfactor0
+\cf2 \cb6 3\cb1 \
+\pard\intbl\itap1\pardeftab720\qc\partightenfactor0
+\cf4 \cb5 4\
+\pard\intbl\itap1\pardeftab720\qc\partightenfactor0
+\cf2 \cb6 5\cb1 \
+\pard\intbl\itap1\pardeftab720\qc\partightenfactor0
+\cf4 \cb5 6\
+\pard\intbl\itap1\pardeftab720\qc\partightenfactor0
+\cf2 \cb6 7\cb1 \
+\pard\intbl\itap1\pardeftab720\qc\partightenfactor0
+\cf4 \cb5 8\
+\pard\intbl\itap1\pardeftab720\qc\partightenfactor0
+\cf2 \cb6 9\cb1 \
+\pard\intbl\itap1\pardeftab720\qc\partightenfactor0
+\cf4 \cb5 10\
+\pard\intbl\itap1\pardeftab720\qc\partightenfactor0
+\cf2 \cb6 11\cb1 \
+\pard\intbl\itap1\pardeftab720\qc\partightenfactor0
+\cf4 \cb5 12\
+\pard\intbl\itap1\pardeftab720\qc\partightenfactor0
+\cf2 \cb6 13\cb1 \
+\pard\intbl\itap1\pardeftab720\qc\partightenfactor0
+\cf4 \cb5 14\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf7 \cb6 .\cf8 MODEL\cf9  \cf8 SMALL\cf0 \cb1 \
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf7 \cb11 .\cf8 STACK\cf9  \cf12 100h\cf0 \
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf7 \cb6 .\cf8 DATA\cf0 \cb1 \
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf13 \cb11 \'a0\'a0\'a0\'a0HelloMessage\cf9  \cf8 DB\cf9  \cf14 'Hello World'\cf7 ,\cf12 13\cf7 ,\cf12 10\cf7 ,\cf14 '$'\cf0 \
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf7 \cb6 .\cf8 CODE\cf0 \cb1 \
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf13 \cb11 START\cf7 :\cf0 \
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf13 \cb6 \'a0\'a0\'a0\'a0mov\cf9  \cf8 ax\cf7 ,@\cf8 data\cf0 \cb1 \
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf13 \cb11 \'a0\'a0\'a0\'a0mov\cf9  \cf8 ds\cf7 ,\cf8 ax\cf0 \
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf13 \cb6 \'a0\'a0\'a0\'a0mov\cf9  \cf8 ah\cf7 ,\cf12 9\cf0 \cb1 \
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf13 \cb11 \'a0\'a0\'a0\'a0mov\cf9  \cf8 dx\cf7 ,\cf8 OFFSET\cf9  \cf8 HelloMessage\cf0 \
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf13 \cb6 \'a0\'a0\'a0\'a0int\cf9  \cf12 21h\cf0 \cb1 \
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf13 \cb11 \'a0\'a0\'a0\'a0mov\cf9  \cf8 ah\cf7 ,\cf12 4ch\cf0 \
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf13 \cb6 \'a0\'a0\'a0\'a0int\cf9  \cf12 21h\cf0 \cb1 \
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+\cf13 \cb11 END\cf9  \cf8 START\cell \lastrow\row
+}
